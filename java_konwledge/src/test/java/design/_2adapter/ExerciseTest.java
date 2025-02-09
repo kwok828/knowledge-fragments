@@ -1,14 +1,12 @@
-package design._2Adapter;
+package design._2adapter;
 
-import com.gzt.design._2Adapter.exercise.FileIO;
-import com.gzt.design._2Adapter.exercise.FileProperties;
+import com.gzt.design._2adapter.exercise.FileIO;
+import com.gzt.design._2adapter.exercise.FileProperties;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Paths;
-import java.util.Objects;
 
 @SpringBootTest
 public class ExerciseTest {

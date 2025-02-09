@@ -1,4 +1,4 @@
-package com.gzt.design._2Adapter.exercise;
+package com.gzt.design._2adapter.exercise;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

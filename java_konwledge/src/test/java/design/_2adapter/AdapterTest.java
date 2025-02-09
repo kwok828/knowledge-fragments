@@ -1,9 +1,9 @@
-package design._2Adapter;
+package design._2adapter;
 
-import com.gzt.design._2Adapter.Print;
-import com.gzt.design._2Adapter.PrintBanner;
-import com.gzt.design._2Adapter.contracts.PrintBannerContracts;
-import com.gzt.design._2Adapter.contracts.PrintContracts;
+import com.gzt.design._2adapter.Print;
+import com.gzt.design._2adapter.PrintBanner;
+import com.gzt.design._2adapter.contracts.PrintBannerContracts;
+import com.gzt.design._2adapter.contracts.PrintContracts;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

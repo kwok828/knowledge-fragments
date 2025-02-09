@@ -1,4 +1,4 @@
-package com.gzt.design._2Adapter;
+package com.gzt.design._2adapter;
 
 public interface Print {
     void printWeak();

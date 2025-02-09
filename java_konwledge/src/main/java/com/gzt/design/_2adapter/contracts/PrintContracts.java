@@ -1,4 +1,4 @@
-package com.gzt.design._2Adapter.contracts;
+package com.gzt.design._2adapter.contracts;
 
 public abstract class PrintContracts {
     public abstract void printWeak();

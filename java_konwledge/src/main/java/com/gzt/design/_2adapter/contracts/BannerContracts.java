@@ -1,8 +1,8 @@
-package com.gzt.design._2Adapter;
+package com.gzt.design._2adapter.contracts;
 
-public class Banner {
+public class BannerContracts {
     private String string;
-    public Banner(String string) {
+    public BannerContracts(String string) {
         this.string = string;
     }
 
