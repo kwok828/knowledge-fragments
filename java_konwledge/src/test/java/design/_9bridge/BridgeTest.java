@@ -3,6 +3,9 @@ package design._9bridge;
 import com.gzt.design._9bridge.CountDisplay;
 import com.gzt.design._9bridge.Display;
 import com.gzt.design._9bridge.StringDisplayImpl;
+import com.gzt.design._9bridge.exercise.RandomCountDisplay;
+import com.gzt.design._9bridge.exercise2.CharDisplayImpl;
+import com.gzt.design._9bridge.exercise2.IncreaseDisplay;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -27,5 +30,19 @@ public class BridgeTest {
         d1.display();
         d2.display();
         d3.multiDisplay(5);
+    }
+
+    @Test
+    public void testRandomDisplay() {
+        RandomCountDisplay d3 = new RandomCountDisplay(new StringDisplayImpl("Hello, Universe Random Display."));
+        d3.randomDisplay(10);
+    }
+
+    @Test
+    public void testIncreaseDisplay() {
+        IncreaseDisplay d4 = new IncreaseDisplay(new CharDisplayImpl('<', '*', '>'), 1);
+        IncreaseDisplay d5 = new IncreaseDisplay(new CharDisplayImpl('|', '#', '-'), 2);
+        d4.increaseDisplay(4);
+        d5.increaseDisplay(6);
     }
 }
